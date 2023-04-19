@@ -1,11 +1,11 @@
 <?php
-
-$nom = $_POST['user_name'];
-$lastName = $_POST['user_lastname'];
-$courriel = $_POST['user_email'];
-$phone = $_POST['user_phone'];
-$subject = $_POST['user_subject'];
-$message = $_POST['user_message'];
+var_dump($_POST);
+$nom = $_POST['firstname'];
+$lastName = $_POST['lastname'];
+$courriel = $_POST['email'];
+$phone = $_POST['phone'];
+$subject = $_POST['subject'];
+$message = $_POST['message'];
 
 ?>
 
